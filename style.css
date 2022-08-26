@@ -2,11 +2,9 @@
     margin: 0; 
     font-family: 'Roboto', sans-serif
 }
-body{}
-
 header{
     width: 100%;
-    display: inline-block;
+    display: flex;
     background-color: #222222;
     position: relative;
 }
@@ -26,7 +24,7 @@ h2{
 .white{ color: white;}
 .red{color: #FC200C;}
 .header{
-    display: inline-flex;
+    display: flex;
     color: white;
     position: absolute;
     right: 40px;
@@ -40,30 +38,28 @@ nav a{
     text-decoration: none;
 }
 .middle{
-    position: absolute;
-    top: 25%;
-    right: 1%;
-    left: 1%;
-    display: inline flex;
+    padding: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 .envio{
-    display: inline-block;
     background-image: url(img/delivery.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
     padding-bottom: 300px;
-    width: 48%;
+    width: 40%;
     font-size: 20px;
     font-weight: bold;
     padding-left: 20px;
     padding-top: 30px;
 }
 .podio{
-    display: inline-block;
-    position: absolute;
     right: 20px;
-    width: 48%;
+    width: 40%;
     text-align: center;
 }
 .title{
@@ -87,21 +83,23 @@ nav a{
     margin-left: 40px;
     margin-bottom: 30px;
 }
-nav .navfooter{
-}
 footer{
+    display: flex;
     background-color: #222222;
     position: absolute;
     bottom: 0px;
     width: 100%;
+    justify-content: space-between;
 }
 .navfooter a{
     display: block;
     padding-left: 40px;
 }
 .logo2{
-    padding: 20px auto;
     position: absolute;
     right: 20%;
     bottom: 25%;
+}
+.logo2 img{
+    padding: 10px;
 }
