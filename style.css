@@ -14,7 +14,7 @@ header  img{
     margin-left: 20px;
 }
 h2{
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 1000;
     display: inline-block;
     position: absolute;
@@ -33,44 +33,46 @@ h2{
     font-size: 16px;
 }
 nav a{
+    font-size: 1rem;
     padding: 10px;
     color: white;
     text-decoration: none;
 }
 .middle{
-    padding: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around ;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 .envio{
     background-image: url(img/delivery.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
-    padding-bottom: 300px;
+    padding-bottom: 20rem;
     width: 40%;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: bold;
     padding-left: 20px;
     padding-top: 30px;
 }
 .podio{
-    right: 20px;
+    height:20rem;
     width: 40%;
-    text-align: center;
+    justify-content: center;
 }
 .title{
     color: #FC200C;
-    padding: 20px;
-    font-size: 30px;
-    margin-bottom: 40px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
 }
 .top{
     display: inline block;
-    text-align: left;
 }
 .pizzastop{
     background-image: url(img/PizzaFalling.jpg);
@@ -80,6 +82,7 @@ nav a{
     background-size: contain;
 }
 .pizzastop h3{
+    font-size: 1.4rem;
     margin-left: 40px;
     margin-bottom: 30px;
 }
